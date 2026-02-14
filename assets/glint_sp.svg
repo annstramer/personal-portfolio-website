@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" data-name="glint" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 477 332">
+  <defs>
+    <style>
+      .b {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <circle class="b" cx="100" cy="67" r="28"/>
+  <circle class="b" cx="68" cy="124" r="28"/>
+  <circle class="b" cx="28" cy="111" r="28"/>
+  <circle class="b" cx="91" cy="304" r="28"/>
+  <circle class="b" cx="221" cy="223" r="28"/>
+  <circle class="b" cx="209" cy="116" r="28"/>
+  <circle class="b" cx="163" cy="121" r="28"/>
+  <circle class="b" cx="246" cy="82" r="28"/>
+  <circle class="b" cx="328" cy="53" r="28"/>
+  <circle class="b" cx="449" cy="28" r="28"/>
+  <circle class="b" cx="428" cy="119" r="28"/>
+  <circle class="b" cx="304" cy="133" r="28"/>
+</svg>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" data-name="solid sparkles" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 342 226">
+  <defs>
+    <style>
+      .b {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <circle class="b" cx="40.4727" cy="54.1445" r="28"/>
+  <circle class="b" cx="87" cy="198" r="28"/>
+  <circle class="b" cx="127" cy="162" r="28"/>
+  <circle class="b" cx="118" cy="145" r="28"/>
+  <circle class="b" cx="28" cy="92" r="28"/>
+  <circle class="b" cx="112" cy="62" r="28"/>
+  <circle class="b" cx="116" cy="33" r="28"/>
+  <circle class="b" cx="168" cy="28" r="28"/>
+  <circle class="b" cx="255" cy="36" r="28"/>
+  <circle class="b" cx="279" cy="30" r="28"/>
+  <circle class="b" cx="314" cy="73" r="28"/>
+  <circle class="b" cx="295" cy="121" r="28"/>
+  <circle class="b" cx="255" cy="121" r="28"/>
+  <circle class="b" cx="240" cy="117" r="28"/>
+  <circle class="b" cx="191" cy="116" r="28"/>
+  <circle class="b" cx="178" cy="111" r="28"/>
+  <circle class="b" cx="167" cy="71" r="28"/>
+  <ellipse class="b" cx="245.25" cy="80.5" rx="60.5" ry="35.5"/>
+  <ellipse class="b" cx="145" cy="48" rx="18" ry="10"/>
+  <ellipse class="b" cx="300" cy="44.5488" rx="32" ry="26.4512"/>
+</svg>
