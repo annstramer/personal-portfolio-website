@@ -11,7 +11,7 @@ Developed with HTML, CSS, and JavaScript, this site reflects a deliberate choice
 
 ## Overview
 
-This portfolio represents a transition — from early interactive motion systems to modern frontend engineering focused on architecture, authentication flows, and data-driven interfaces.
+This portfolio represents a transition from early interactive motion systems to modern frontend engineering focused on architecture, authentication flows, and data-driven interfaces.
 
 The site is intentionally lightweight. Rather than relying on a framework, it uses semantic HTML, modular CSS, and structured JavaScript to maintain transparency in how each interaction is constructed.
 
@@ -20,7 +20,7 @@ The goal is not visual noise, but meaningful interaction.
 
 ## Design & Interaction Philosophy
 
-My work integrates motion as part of interface meaning — not decoration. Animation supports hierarchy, guides attention, and clarifies state transitions.
+My work integrates motion as part of interface meaning, not decoration. Animation supports hierarchy, guides attention, and clarifies state transitions.
 
 Across the site you’ll find:
 
