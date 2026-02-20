@@ -609,6 +609,12 @@ PROJECTS
   max-width: 550px;
 }
 
+.project__description--label {
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 8px;
+}
+
 .project__description--title {
   font-size: 40px;
 }
