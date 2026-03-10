@@ -112,6 +112,13 @@ input:focus, textarea:focus {
   line-height: 1;
 }
 
+.sub-title__intro {
+  font-size: 24px;
+  margin: 5px 0px 12px 0px;
+  text-align: left;
+  line-height: 1;
+}
+
 .body__description--para {
   padding: 16px 0px 8px 0px;
   max-width: 550px;
