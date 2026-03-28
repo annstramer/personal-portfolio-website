@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, noimageindex">
+    <title>Ann Stramer</title>
+    <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d28da4b379.js" crossorigin="anonymous"></script> </script>
+    <script type="text/javascript"
+          src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <section >
+      <nav>
+        <figure>
+          <img id="portfolio-logo" src="./assets/logo.svg" alt="">
+        </figure>
+        <ul class="nav__link--list">
+          <li class="nav__link" onclick="toggleModal()">
+            <a href="index.html" class="
+              nav__link--anchor
+              link__hover-effect
+              link__hover-effect--black
+            ">Home</a>
+          </li>
+          <li class="nav__link" onclick="toggleModal()">
+            <a href="#" class="
+              nav__link--anchor
+              link__hover-effect
+              link__hover-effect--black
+            ">About</a>
+          </li>
+          <li class="nav__link">
+            <a href="#projects" class="
+              nav__link--anchor
+              link__hover-effect
+              link__hover-effect--black
+            ">Projects</a>
+          </li>
+          <li class="nav__link" onclick="toggleModal()">
+            <a href="#" class="
+              nav__link--anchor
+              link__hover-effect
+              link__hover-effect--black
+            ">Contact</a>
+          </li>
+          <li class="nav__link click" onclick="toggleContrast()">
+            <a href="#" class="
+              nav__link--anchor
+              link__hover-effect
+              link__hover-effect--black
+            "><i class="fas fa-adjust"></i></a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+    <section id="projects">
+      <div class="container">
+        <div class="row">
+          <h1 class="body__title">
+            <span class="coral">Component-Based Content System</span> (Gutenberg-Aligned Architecture)
+          </h1>
+          <h1 class="body__sub-title">Context</h1>
+          <p class="body__description--para">
+            This project began as a static React interface and was redesigned into a dynamic, 
+            data-driven content system focused on scalability, usability, and performance.
+            <br><br>It explores how to design reusable, structured UI components that support dynamic, data-driven 
+            content&mdash;similar to how modern WordPress systems rely on Gutenberg blocks and modular content architecture.
+            <br><br>The goal was to create an interface capable of handling structured, high-volume 
+            content (NFT collections) while maintaining a responsive and intuitive user 
+            experience&mdash;similar to modern content platforms built on modular systems like WordPress Gutenberg.
+          </p>
+          <hr class="body__rule" />
+          <h1 class="body__sub-title">What I Built</h1>
+          <p class="body__description--para">The system is designed around modular components that can be composed flexibly; mirroring how Gutenberg 
+            blocks are structured. Each component is isolated, reusable, and designed to support structured content inputs.</p>
+          <div class="body__callout--img-wrapper">
+            <img alt="File structure of a block – Block Editor Handbook | Developer.WordPress.org" 
+              class="body__callout--img" 
+              src="../assets/case-study/scr_carousel.png"> 
+          </div>
+          <p class="body__callout--description--para">
+            Carousel-based navigation enabling content discovery across categories, 
+            designed for flexible reuse across content types.
+          </p>
+          <ul class="body__list">
+            <li class="bullet">
+              <h1 class="body__heading">Reusable Card System</h1>
+              <p class="body__description--para">Designed a flexible card component used across carousel and grid views to 
+                display NFT metadata consistently.</p>
+              <div class="body__callout--img-wrapper">
+                <img alt="File structure of a block – Block Editor Handbook | Developer.WordPress.org" 
+                class="body__callout--img" 
+                src="../assets/case-study/scr_card.png"> 
+              </div>
+              <p class="body__callout--description--para">
+                A single card component powers multiple contexts (carousel, grid, detail previews), 
+                ensuring consistency and scalability.
+              </p>
+            </li>
+            <li class="bullet">
+              <h1 class="body__heading">Carousel-Based Content Exploration</h1>
+              <p class="body__description--para">Implemented a scrollable, animated carousel to support content 
+                discovery and prioritization.</p>
+            </li>
+            <li class="bullet">
+              <h1 class="body__heading">Dynamic Routing</h1>
+              <p class="body__description--para">Built route-based navigation allowing users to drill down into 
+                individual creators and their associated content.</p>
+            </li>
+            <li class="bullet">
+              <h1 class="body__heading">API-Driven Data Layer</h1>
+              <p class="body__description--para">Integrated external data sources to dynamically populate content, 
+                replacing static data with scalable content flows.</p>
+            </li>
+            <li class="bullet">
+              <h1 class="body__heading">Skeleton Loading States</h1>
+              <p class="body__description--para">Introduced loading placeholders to improve perceived 
+                performance and maintain layout stability.</p>
+            </li>
+            <li class="bullet">
+              <h1 class="body__heading">Pagination & Content Scaling</h1>
+              <p class="body__description--para">Structured data handling to support larger datasets 
+                without degrading performance.</p>
+            </li>
+          </ul>
+          <hr class="body__rule" />
+          <h1 class="body__sub-title">Architecture Thinking</h1>
+          <p class="body__description--para">
+            This system was designed around modular, composable systems that enable non-technical teams to assemble content dynamically that can be composed flexibly 
+            depending on content needs.
+          </p>
+          <p class="body__heading">
+            Key decisions:
+          </p>
+          <ul class="body__list">
+            <li class="bullet">
+              <p class="body__description--para">
+                Isolated UI components for reuse across contexts
+              </p>
+            </li>
+            <li class="bullet">
+              <p class="body__description--para">
+                Clear separation between data fetching and presentation
+              </p>
+            </li>
+            <li class="bullet">
+              <p class="body__description--para">
+                Structured data inputs to support consistent rendering
+              </p>
+            </li>
+            <li class="bullet">
+              <p class="body__description--para">
+                Scalable routing patterns for expanding content relationships
+              </p>
+            </li>
+          </ul>
+          <p class="body__description--para">
+            This approach ensures the system can grow without requiring major refactors—mirroring how 
+            scalable content platforms are structured.
+          </p>
+          <p class="body__description--para">
+            Components were designed to be composable&mdash;allowing different content structures 
+            to be assembled dynamically without requiring new development, similar to how editorial 
+            teams use block-based systems in WordPress.
+          </p>
+          <hr class="body__rule" />
+          <h1 class="body__sub-title">How This Maps To WordPress</h1>
+          <p class="body__description--para">
+            This architecture translates directly into modern WordPress development:
+          </p>
+          <div class="body__callout--img-wrapper">
+            <img alt="File structure of a block – Block Editor Handbook | Developer.WordPress.org" 
+            class="body__callout--img" 
+            src="../assets/case-study/scr_carousel_notes.png"> 
+          </div>
+          <p class="body__callout--description--para">
+            Carousel-based navigation enabling content discovery across categories, 
+            designed for flexible reuse across content types.
+          </p>
+          <ul class="body__list">
+            <li class="bullet">
+              <h1 class="body__heading">React Componenets &rarr; Gutenberg Blocks</h1>
+              <p class="body__description--para">Each UI component can be implemented as a reusable block.</p>
+            </li>
+            <li class="bullet">
+              <h1 class="body__heading">Component Props & State &rarr; Block Attributes</h1>
+              <p class="body__description--para">Structured data passed into components aligns with how blocks manage content.</p>
+            </li>
+            <li class="bullet">
+              <h1 class="body__heading">API Integration &rarr; WP REST API / Headless WordPress</h1>
+              <p class="body__description--para">The data layer mirrors how WordPress serves structured content externally.</p>
+            </li>
+            <li class="bullet">
+              <h1 class="body__heading">Dynamic Routing &rarr; Content Relationships (Posts, Authors, Taxonomies)</h1>
+              <p class="body__description--para">Drill-down navigation reflects how content is organized and queried in WordPress.</p>
+              <div class="body__callout--img-wrapper">
+                <img alt="File structure of a block – Block Editor Handbook | Developer.WordPress.org" 
+                  class="body__callout--img" 
+                  src="../assets/case-study/scr_author.png"> 
+              </div>
+              <p class="body__callout--description--para">
+                Route-based navigation allows users to explore content relationships (e.g., creator &rarr; collection), 
+                mirroring structured content models used in CMS platforms.
+              </p>
+            </li>
+            <li class="bullet">
+              <h1 class="body__heading">Reusable Layout Patterns &rarr; Block Compositions</h1>
+              <p class="body__description--para">Carousel and grid systems map to flexible block-based layouts.</p>
+            </li>
+          </ul>
+          <hr class="body__rule" />
+          <h1 class="body__sub-title">Performance Considerations</h1>
+          <div class="body__callout--img-wrapper">
+            <img alt="File structure of a block – Block Editor Handbook | Developer.WordPress.org" 
+              class="body__callout--img" 
+              src="../assets/case-study/scr_skeleton.png"> 
+          </div>
+          <p class="body__callout--description--para">
+            Skeleton loading states maintain layout stability and improve perceived performance 
+            during asynchronous data fetching.
+          </p>
+          <ul class="body__list">
+            <li class="bullet">
+              <p class="body__description--para">Implemented skeleton states to improve perceived load speed</p>
+            </li>
+            <li class="bullet">
+              <p class="body__description--para">Structured rendering to minimize unnecessary re-renders</p>
+            </li>
+            <li class="bullet">
+              <p class="body__description--para">Designed for incremental data loading (pagination)</p>
+            </li>
+            <li class="bullet">
+              <p class="body__description--para">Considered scalability for high-volume content environments</p>
+            </li>
+          </ul>
+          <p class="body__description--para">The system was designed with high-traffic scenarios in mind, ensuring 
+            efficient rendering and scalable data handling patterns.</p>
+          <hr class="body__rule" />
+          <h1 class="body__sub-title">Content & Editorial Impact</h1>
+          <p class="body__description--para">
+            The system was designed to support rapid content iteration by separating structure from presentation. 
+            This allows new content configurations to be created without modifying core components&mdash;an approach 
+            that aligns with high-output editorial environments.
+          </p>
+          <hr class="body__rule" />
+          <h1 class="body__sub-title">Design & UX Considerations</h1>
+          <p class="body__description--para">
+            Careful attention was given to spacing, typography, and motion to create a clear visual hierarchy. Animated 
+            transitions and carousel interactions were used to guide user attention without overwhelming the interface, 
+            ensuring a balance between engagement and usability.
+          </p>
+          <hr class="body__rule" />
+          <h1 class="body__sub-title">Outcome</h1>
+          <p class="body__description--para">
+            This project demonstrates how component-based frontend architecture can support scalable, 
+            data-driven content systems.
+            <br><br>It also highlights how modern frontend patterns translate directly into WordPress 
+            environments&mdash;particularly in Gutenberg-based builds where modularity, performance, and 
+            editorial flexibility are critical.
+            <br><br>
+            This approach is particularly relevant for platforms like Clever, where large volumes of 
+            structured content must be generated, maintained, and optimized efficiently.
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="row footer__row">
+          <figure>
+            <img src="./assets/logo.svg" class="footer__logo--img" alt="">
+          </figure>
+          <div class="footer__social--list">
+            <a href="/index.html" class="
+            footer__social--link
+            link__hover-effect
+            link__hover-effect--white
+            ">Home</a>
+            <a href="https://github.com/annstramer" target="_blank" class="
+            footer__social--link
+            link__hover-effect
+            link__hover-effect--white
+            ">Github</a>
+            <a href="https://www.linkedin.com/in/annstramer/" target="_blank" class="
+            footer__social--link
+            link__hover-effect
+            link__hover-effect--white
+            ">LinkedIn</a>
+            <a href="#" onclick="toggleModal()"
+            class="
+            footer__social--link
+            link__hover-effect
+            link__hover-effect--white
+            ">Contact</a>
+          </div>
+          <div class="footer__copyright">by Ann Stramer</div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
