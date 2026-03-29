@@ -680,6 +680,10 @@ PROJECTS
   margin: 16px 0;
 }
 
+.project__description--para--keepvisible {
+  margin: 16px 0;
+}
+
 .project__description--link-gallery {
   color: #f94962;
   font-size: 16px;
@@ -1041,10 +1045,17 @@ RESPONSIVE
     width: 67%;
     padding: 24px 0px;
   }
+  p {
+    font-size: 14px;
+  }
 }
 
 /* Small phones, tablets, large smart phones */
 @media (max-width: 768px) {
+  p {
+    font-size: 12px;
+  }
+
   .title {
     font-size: 80px;
   }
@@ -1074,6 +1085,14 @@ RESPONSIVE
   .modal__half {
     width: 100%;
     
+  }
+
+  .project__description--label {
+    display: none;
+  }
+
+  .project__description--title {
+    font-size: 20px;
   }
 
   .visual-style__description--para {
@@ -1118,6 +1137,11 @@ RESPONSIVE
   .nav__link:nth-child(2),
   .nav__link:nth-child(3) {
     display: none;
+  }
+
+
+  .project__description--label {
+    display: inline;
   }
 
   .project__description--para {
