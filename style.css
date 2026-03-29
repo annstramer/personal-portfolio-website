@@ -1087,6 +1087,11 @@ RESPONSIVE
     
   }
 
+  .project__description {
+    left: 60px;
+    max-width: 500px;
+  }
+
   .project__description--label {
     display: none;
   }
