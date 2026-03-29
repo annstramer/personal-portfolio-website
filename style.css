@@ -217,7 +217,8 @@ nav,
 .dark-theme .gallery-card__description--para,
 .dark-theme .visual-style__description--para,
 .dark-theme .body__description--para, 
-.dark-theme .body__callout--description--para {
+.dark-theme .body__callout--description--para,
+.dark-theme .bullet {
   color: #bcbcbc;
 }
 
